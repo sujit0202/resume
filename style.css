@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Manrope&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Manrope&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.sidebar {
+    background-color: rgb(226, 216, 216);
+    width: 350px;
+    font-family: 'Barlow', sans-serif;
+    height: 100vh
+}
+
+.sidebar nav {
+    padding: 22px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    height: 44vh;
+    width: 88vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.devPic img {
+    height: 400px;
+    width: 266px;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif;
+}
+
+.hello {
+    font-size: 40px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.moreabout {
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.button {
+    margin-top: 25px;
+}
+
+.buttons button {
+    padding: 3px;
+    font-weight: bold;
+}
+
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.contactform h1 {
+    padding: 12px 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 20vw;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 6px 0;
+    padding: 2px;
+}
+
+#emailHelp {
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 22px;
+    margin: 5px 4px;
+}
+
+.blogItem {
+    margin: 22px;
+    font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    margin: 12px;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+}
